@@ -1,11 +1,11 @@
 let p0,p1,p2;
 
 function setup() {
-  createCanvas(600, 600);
-  p0 = createVector(0,300);
+  createCanvas(840, 600);
+  p0 = createVector(0,height/2);
   p1 = createVector(300,0);
-  p2 = createVector(400,0);
-  p3 = createVector(600,300);
+  p2 = createVector(width*2/3,0);
+  p3 = createVector(width,height/2);
 }
 
 function draw() {
